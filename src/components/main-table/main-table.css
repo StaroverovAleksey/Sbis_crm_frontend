@@ -1,0 +1,90 @@
+.title-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 17.5px 0 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #323232;
+  color: white;
+}
+
+.title-item {
+  display: block;
+  padding: 0;
+  padding-top: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 7%;
+  height: 100%;
+  align-self: center;
+  text-align: center;
+  border-right: 1px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.title-item:last-child {
+  border-right: none;
+}
+
+.main-table {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding-top: 5px;
+  width: 100vw;
+  height: calc(100vh - 138px);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  background: white;
+}
+
+.chief__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.chief__item {
+  display: block;
+  margin: 0 0 1.4em 0;
+}
+
+.preload-picture {
+  width: 0;
+  height: 0;
+}
+
+.preload-picture__1 {
+  background-image: url("../../images/arrow-up-active.png");
+}
+
+.preload-picture__2 {
+  background-image: url("../../images/basket-active.png");
+}
+
+.preload-picture__3 {
+  background-image: url("../../images/comment-active.png");
+}
+
+.preload-picture__4 {
+  background-image: url("../../images/crown-active.png");
+}
+
+.preload-picture__5 {
+  background-image: url("../../images/pencil-active.png");
+}
+
+.preload-picture__6 {
+  background-image: url("../../images/person-active.png");
+}
+
+.preload-picture__7 {
+  background-image: url("../../images/transfer-active.png");
+}

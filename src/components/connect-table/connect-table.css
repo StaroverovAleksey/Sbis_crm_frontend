@@ -1,0 +1,8 @@
+.zxc {
+  width: 100vw;
+  height: calc(100vh - 120px);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: red;
+}

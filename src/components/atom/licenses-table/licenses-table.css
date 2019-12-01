@@ -1,0 +1,78 @@
+.licenses-table__wrapper {
+  padding: 5px 5px 5px 0;
+  display: block;
+  width: 80%;
+}
+
+.licenses__value {
+  display: block;
+  padding: 0.4em 0 0.4em 11px;
+  overflow: hidden;
+  word-wrap: normal;
+  min-height: 28px;
+  box-sizing: border-box;
+}
+
+.licenses-table__name {
+  width: 20%;
+  padding: 0.4em 0 0.4em 11px;
+  box-sizing: border-box;
+}
+.licenses-table__position {
+  width: 60%;
+  padding: 0.4em 0 0.4em 11px;
+  box-sizing: border-box;
+}
+.licenses-table__tel {
+  position: relative;
+  width: 20%;
+  padding: 0.4em 0 0.4em 11px;
+  box-sizing: border-box;
+}
+
+.licenses-redact--paint {
+  position: absolute;
+  top: 5px;
+  left: 75%;
+  margin: 0;
+  display: block;
+  width: 19px;
+  height: 18px;
+  background: url("../../../images/pencil.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.licenses-redact--paint:hover {
+  position: absolute;
+  top: 4.5px;
+  left: 75.5%;
+  margin: 0;
+  display: block;
+  width: 19px;
+  height: 18px;
+  background: url("../../../images/pencil-active.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.licenses-redact--paint--active {
+  position: absolute;
+  top: 4.5px;
+  left: 75.5%;
+  margin: 0;
+  display: block;
+  width: 19px;
+  height: 18px;
+  background: url("../../../images/pencil-active.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.licenses--clickable {
+  cursor: pointer;
+}
+
+.license--active {
+  background-color: #40E0D0 !important;
+}

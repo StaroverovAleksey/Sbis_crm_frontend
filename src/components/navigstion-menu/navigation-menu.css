@@ -1,0 +1,15 @@
+.main-navigation{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+}
+
+.main-navigation__button-wrapper {
+  margin-left: 20px;
+}
+
+.main-navigation__user-settings {
+  margin-left: auto;
+  margin-right: 20px;
+}

@@ -1,0 +1,32 @@
+.licenses__number {
+  width: 5%;
+}
+
+.licenses__cut-name {
+  width: 10%;
+}
+
+.licenses__name {
+  width: 20%;
+}
+
+.licenses__description {
+  width: 55%;
+}
+
+.licenses__cost {
+  width: 10%;
+}
+
+.licenses-table {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding-top: 5px;
+  width: 100vw;
+  height: calc(100vh - 138px);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  background: white;
+}
+

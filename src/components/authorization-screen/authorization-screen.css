@@ -1,0 +1,12 @@
+@import "../registration-form/registration-form.css";
+.lobby{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 400px;
+}
+.lobby__title {
+  display: block;
+  margin: 0 0 5px 0;
+}
